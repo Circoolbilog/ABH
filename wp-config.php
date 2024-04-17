@@ -25,19 +25,19 @@ define( 'WP_CACHE', true );
 define( 'DB_NAME', 'abacagenomehub' );
 
 /** Database username */
-define( 'DB_USER', 'imbluser' );
+define( 'DB_USER', 'root' );
 
 /** Database password */
-define( 'DB_PASSWORD', 'pandsTVAMORN' );
+define( 'DB_PASSWORD', '' );
 
 /** Database hostname */
-define( 'DB_HOST', 'mysql' );
+define( 'DB_HOST', 'localhost' );
 
 /** Database charset to use in creating database tables. */
 define( 'DB_CHARSET', 'utf8' );
 
 /** The database collate type. Don't change this if in doubt. */
-define( 'DB_COLLATE', '' );
+define( 'DB_COLLATE', 'utf8mb4_unicode_ci' );
 
 /**#@+
  * Authentication unique keys and salts.
